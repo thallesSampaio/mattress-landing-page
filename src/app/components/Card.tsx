@@ -14,7 +14,7 @@ interface CardProps {
       <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
         <div className="p-4 md:p-10">
           <div
-            className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat md:gap-8 rounded-xl items-start justify-end px-4 pb-10 md:px-10"
+            className="shadow-xl flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat md:gap-8 rounded-xl items-start justify-end px-4 pb-10 md:px-10"
             style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url(${imageUrl})`
             }}
