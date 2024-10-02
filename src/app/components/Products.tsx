@@ -13,7 +13,7 @@ export default function Products() {
                     title={"Travesseiros Ergonômicos"}
                     content={"Travesseiro que alinha a coluna e proporciona um sono reparador."}
                     imageUrl={"https://cdn.usegalileo.ai/sdxl10/b0854cd9-b4d1-44ee-9baa-6c9cb4708284.png"}
-                    text={"Solicite um orçamento"}></Card>
+                    text={"Compre agora"}></Card>
             </section>
         </div>
     )
