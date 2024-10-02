@@ -34,10 +34,10 @@ export default function Header() {
 
             {/* Menu de navegação */}
             <nav className={`flex flex-col md:flex-row ${isOpen ? 'block' : 'hidden'} md:block mt-4 md:mt-0`}>
-                <a href='products' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Products</a>
-                <a href='services' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Services</a>
-                <a href='quality' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Quality</a>
-                <a href='contact' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Contact</a>
+                <a href='#products' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Products</a>
+                <a href='#services' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Services</a>
+                <a href='#quality' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Quality</a>
+                <a href='#contact' className="text-[#0e161b] text-sm font-medium leading-normal py-2 md:py-0 md:pl-4">Contact</a>
             </nav>
         </header>
     );
