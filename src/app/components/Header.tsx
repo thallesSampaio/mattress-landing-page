@@ -5,7 +5,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="flex flex-col  md:flex-row border-b border-solid border-b-[#e8eef3] px-10 py-3">
+        <header className="flex flex-col md:flex-row border-b border-solid border-b-[#e8eef3] px-10 py-3">
             <div className="flex items-center justify-between w-full md:w-auto">
                 <div className="flex items-center gap-4">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
